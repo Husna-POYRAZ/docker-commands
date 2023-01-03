@@ -7,5 +7,7 @@
 | Commands                                    | Description                                       | Example                                               |                                                                                         
 | --------------------------------------------| --------------------------------------------------|-------------------------------------------------------|
 | `docker pull <image_name>`                  | Pull an image or a repository from a registry     | `docker pull ubuntu`  
+| `docker run <image_name>`                   | Run a command in a new container                  | `docker run ubuntu`
+| `docker ps`                                 | List only shows running containers by default
+| `docker ps -a` or `docker ps --all`         | List all running or not running containers
 
- 
