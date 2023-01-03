@@ -12,5 +12,7 @@
 | `docker ps`                                 | List only shows running containers by default
 | `docker ps -a` or `docker ps --all`         | List all running or not running containers
 | `docker images`                             | List the most recently created images
-| `docker rmi <image_name>` or `docker rmi <image_id>`                    | Remove the docker image                         | `docker rmi ubuntu`
+| `docker rmi <image_name>` or `docker rmi <image_id>`| Remove the docker image                    | `docker rmi ubuntu`
+| `docker run -it <image_name>`               | Run docker image and enter docker image's container| `docker run -it ubuntu`
+| `exit`                                      | Exit docker container                              |
 
