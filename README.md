@@ -14,6 +14,6 @@
 | `docker images`                             | List the most recently created images
 | `docker rmi <image_name>` or `docker rmi <image_id>`| Remove the docker image                    | `docker rmi ubuntu`
 | `docker run -it <image_name>`               | Run docker image and enter docker image's container| `docker run -it ubuntu`
-| `docker run --name <create_container_name> -it <image_name`| Run a container named using the docker image | 
+| `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and enter the container| `docker run --name ubuntu-container -it ubuntu`
 | `exit`                                      | Exit docker container                              |
 
