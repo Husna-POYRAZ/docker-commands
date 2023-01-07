@@ -15,10 +15,10 @@
 | `docker start <container_name>`             | Start one or more stopped containers with container name | `docker start bash_ubuntu`
 | `docker stop <container_name>` or `docker stop <container_id>`             | Stop one or more stopped containers with container name/id  | `docker stop bash_ubuntu`
 | `docker rm <container_name>`or `docker rm <container_id>`                  | Remove one or more containers with container name/id | `docker rm bash_ubuntu`
-| `exit`                                      | Exit docker container                              |
+| `docker container rm $(docker container ls -aq)`                           | Remove all running or not running containers 
 | `docker ps` or `docker container ls`        | List only shows running containers by default
 | `docker ps -a`, `docker ps --all` or `docker container ls -a`| List all running or not running containers
 | `docker images`                             | List the most recently created images
 | `docker rmi <image_name>` or `docker rmi <image_id>`| Remove the docker image                    | `docker rmi ubuntu`
-
+| `exit`                                      | Exit docker container                              |
 
