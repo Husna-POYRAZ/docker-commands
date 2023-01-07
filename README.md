@@ -13,6 +13,7 @@
 | `docker run -it <image_name>`               | Run command in a new container and get inside that container| `docker run -it ubuntu`
 | `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name bash_ubuntu -it ubuntu`
 | `docker start <container_name>`             | Start one or more stopped containers with container name | `docker start bash_ubuntu`
+| `docker stop <container_name>`              | Stop one or more stopped containers with container name  | `docker stop bash_ubuntu`
 | `exit`                                      | Exit docker container                              |
 | `docker ps` or `docker container ls`        | List only shows running containers by default
 | `docker ps -a`, `docker ps --all` or `docker container ls -a`| List all running or not running containers
