@@ -12,6 +12,7 @@
 | `docker run <image_name>:<image_version>`   | Run a command in a new container with the specified version | `docker run ubuntu:20.04`
 | `docker run --detach <image_name>` or `docker run -d <image_name>`| Run container in background and print container ID | `docker run -d redis`
 | `docker --attach <container_id>` or `docker -a <container_name>` | Attach to STDIN, STDOUT or STDERR    | `docker --attach 9cd`
+| `docker container logs <container_id>`      | Fetch the logs of a container                     | `docker container logs 9cd`
 | `docker run <image_name> sleep <wait_time>` | Run a command in a new container until the wait time | `docker run ubuntu sleep 10`
 | `docker run -it <image_name>`               | Run command in a new container and get inside that container| `docker run -it ubuntu`
 | `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name bash_ubuntu -it ubuntu`
