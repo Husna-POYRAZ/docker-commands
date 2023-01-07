@@ -9,6 +9,7 @@
 | `docker version`                            | Show the Docker version information
 | `docker pull <image_name>`                  | Pull an image or a repository from a registry     | `docker pull ubuntu`  
 | `docker run <image_name>`                   | Run a command in a new container                  | `docker run ubuntu`
+| `docker run <image_name>:<image_version>`   | Run a command in a new container with the specified version | `docker run ubuntu:20.04`
 | `docker run <image_name> sleep <wait_time>` | Run a command in a new container until the wait time | `docker run ubuntu sleep 10`
 | `docker run -it <image_name>`               | Run command in a new container and get inside that container| `docker run -it ubuntu`
 | `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name bash_ubuntu -it ubuntu`
