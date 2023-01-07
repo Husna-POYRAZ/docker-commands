@@ -11,7 +11,7 @@
 | `docker run <image_name>`                   | Run a command in a new container                  | `docker run ubuntu`
 | `docker run <image_name> sleep <wait_time>` | Run a command in a new container until the wait time | `docker run ubuntu sleep 10`
 | `docker run -it <image_name>`               | Run command in a new container and get inside that container| `docker run -it ubuntu`
-| `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name ubuntu-container -it ubuntu`
+| `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name bash_ubuntu -it ubuntu`
 | `exit`                                      | Exit docker container                              |
 | `docker ps` or `docker container ls`        | List only shows running containers by default
 | `docker ps -a`, `docker ps --all` or `docker container ls -a`| List all running or not running containers
