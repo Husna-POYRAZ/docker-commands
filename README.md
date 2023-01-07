@@ -21,5 +21,6 @@
 | `docker ps -a`, `docker ps --all` or `docker container ls -a`| List all running or not running containers
 | `docker images`                             | List the most recently created images
 | `docker rmi <image_name>` or `docker rmi <image_id>`| Remove the docker image                    | `docker rmi ubuntu`
+| `docker image tag <image_name> <create_tag_name>`   | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE | `docker image tag ubuntu my-ubuntu`
 | `exit`                                      | Exit docker container                              |
 
