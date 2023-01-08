@@ -16,6 +16,7 @@
 | `docker run <image_name> sleep <wait_time>` | Run a command in a new container until the wait time | `docker run ubuntu sleep 10`
 | `docker run -it <image_name>`               | Run command in a new container and get inside that container| `docker run -it ubuntu`
 | `docker run --name <create_container_name> -it <image_name`| Assign the container name using the image, run and get inside that container| `docker run --name bash_ubuntu -it ubuntu`
+| `docker run -p <OUTSIDE_PORT>:<INSIDE_PORT> <image_name>`| Publish a container's port(s) to the host | `docker run -p 8080:80 webApp`
 | `docker start <container_name>`             | Start one or more stopped containers with container name | `docker start bash_ubuntu`
 | `docker stop <container_name>` or `docker stop <container_id>`             | Stop one or more stopped containers with container name/id  | `docker stop bash_ubuntu`
 | `docker rm <container_name>`or `docker rm <container_id>`                  | Remove one or more containers with container name/id | `docker rm bash_ubuntu`
